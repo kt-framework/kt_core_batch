@@ -480,6 +480,7 @@ public abstract class BaseBatch {
 	 * @param con
 	 *            DB接続
 	 * @throws Exception
+	 *             各バッチアプリケーションで例外発生した場合
 	 */
 	protected abstract void execute(Connection con) throws Exception;
 }
